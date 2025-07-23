@@ -18,7 +18,8 @@ export function Conversation() {
 
       // Start the conversation with your agent
       await conversation.startSession({
-        agentId: "agent_9901k0sxbtq5fjst5nekba2k6e5z", // Replace with your agent ID
+        agentId: "agent_9901k0sxbtq5fjst5nekba2k6e5z",
+        connectionType: 'webrtc'// Replace with your agent ID
       });
     } catch (error) {
       console.error("Failed to start conversation:", error);
