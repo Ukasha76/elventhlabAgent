@@ -18,7 +18,7 @@ export function Conversation() {
 
       // Start the conversation with your agent
       await conversation.startSession({
-        agentId: "agent_1101k0w10sz7fwctcph3pmtvpesh",
+        agentId: "agent_8201k0y3qwtxeqw80dfkdzmpg3r4",
         connectionType: "webrtc",
        
       });
